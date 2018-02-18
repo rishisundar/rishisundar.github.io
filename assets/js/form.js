@@ -8,8 +8,8 @@ document.getElementById('regform').addEventListener('submit', regForm);
 function regForm(e) {
     e.preventDefault();
     console.log("Default behavious prevented");
-    var name = getInputVal('name');
-    var email = getInputVal('email');
+    var name = getInputVal('rname');
+    var email = getInputVal('remail');
     var rno = getInputVal('rno');
     var paper = getRVal('paper');
     var quiz = getRVal('quiz');
