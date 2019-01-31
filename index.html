@@ -1,86 +1,482 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>My Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="My Resume">
+
+<!-- favicon -->
+<link rel="icon" href="images/favicon.png">
+<!-- page title -->
+<title>BalaKarthikeyan Portfolio</title>
+<!-- bootstrap css -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- css -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='fonts/FontAwesome.otf' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/linear-icons.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
 </head>
 
-<body>
-  <div id="header" class="section">
-    <img alt="" class="img-circle" src="https://yt3.ggpht.com/a-/AN66SAxTSGGDUbEVM6SC7V3AytNDCEQgu-jf1Ujb1Q=s900-mo-c-c0xffffffff-rj-k-no">
-    <p>Rishi Sundar</p>
-  </div>
+<body class="main-demo">
 
-  <div class="section">
-    <h1><span>About Me</span></h1>
-    <p>
-      Hey! I'm <strong>Rishi Sundar</strong>. Coding has changed my world. It's not just about apps. Learning to code gave
-      me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites
-      and use my coding skills to create a better world. And I learned it all at <strong>Codecademy, Freecodecamp, W3school and other resource</strong>      where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help,
-      and learn along the way!
-    </p>
-    <p class="quote">"Declare variables, not war"</p>
-  </div>
+<!-- wrapper -->
+<div id="wrapper">
 
-  <div class="timeline">
-    <div class="container left">
-      <div class="content">
-        <h2>2015</h2>
-        <p>Higher Secondary Schooling @ SBOA MHSS, Madurai with 86%.</p>
-      </div>
-    </div>
-    <div class="container right">
-      <div class="content">
-        <h2>2019</h2>
-        <p>Bachelor of Engineering - Computer Science & Engineering @ PSNA College of Engineering & Technology, Dindigul with 7.1 CGPA</p>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <h1><span>My Skills</span></h1>
-    <ul>
-
-      <li>Java <br />
-        <progress min="0" max="100" value="80"></progress>
-      </li>
-      <li>C <br />
-        <progress min="0" max="100" value="70"></progress>
-      </li>
-      <li>C++ <br />
-        <progress min="0" max="100" value="75"></progress>
-      </li>
-      <li>MySQL <br />
-        <progress min="0" max="100" value="75"></progress>
-      </li>
-      <li>HTML & CSS <br />
-        <progress min="0" max="100" value="65"></progress>
-      </li>
+<!-- side navigation -->
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a href="#"><img src="images/my-img.jpg" alt=""></a>
+        </li>
+        <li class="active">
+            <a class="menu-item page-scroll" href="#home">Home</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#about">About</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#education">Education</a>
+        </li>
+        
+        <li>
+            <a class="menu-item page-scroll" href="#journal">Projects</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#journal">Achievements</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#contact">Contact</a>
+        </li>
+        
     </ul>
-  </div>
+</div>
+<!-- / side navigation -->
 
-  <div class="section">
-    <h1><span>Contact Me</span></h1>
-    <form>
-      <input name="name" placeholder="Name" type="text" required /><br/>
-      <input name="email" placeholder="Email" type="email" required /><br/>
-      <textarea name="message" placeholder="Message" required></textarea>
-      <input type="submit" value="SEND" class="submit" />
-    </form>
-  </div>
-  <!-- Form section end -->
 
-  <!-- Contacts section start -->
+<!-- content -->
+<div id="page-content-wrapper" class="header">
+    <div class="container-fluid">
+        <!-- header -->
+        <div id="top" data-toggle="top"></div>
+        <a href="#menu-toggle" id="menu-toggle"><i class="lnr lnr-menu"></i></a>
+        <header id="home">
+            <div class="header-content">
+                <h2>Hello<span class="text-primary">.</span> I am <span class="text-primary">BalaKarthikeyan</span></h2>
+                <h5>Software Developer</h5>
+                <p>I am an undergraduate computer science and engineering student aspiring to excel in the field of IT by utilizing the skills acquired through out the academic period</p>
+            </div>
+        </header>
+        <!-- / header -->
 
-  <!-- You can import fontawesome for the icons -->
-  <div class="section" id="contacts">
-    <h1><span>Follow Me</span></h1>
-    <div>
-      <a href="http://twitter.com/i_rishisundar">
-        <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
-      </a>
-    </div>
-  </div>
+        <!-- about -->
+        <section id="about">
+            <div class="container">
+                <div class="page-header space-left">
+                    <h3>About<span class="text-primary"></span></h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 feature-left space-bottom">
+                        <div class="feature block">
+                            <div class="feature-icon">
+                                <i class="lnr lnr-user"></i>
+                            </div>
+                            <h5>Full Name</h5>
+                        </div>
+                        <p>BalaKarthikeyan</p>
+                      </div><!-- / feature -->
+
+                      <div class="col-md-4 feature-left space-bottom">
+                        <div class="feature block">
+                            <div class="feature-icon">
+                                <i class="lnr lnr-calendar-full"></i>
+                            </div>
+                            <h5>Date of Birth</h5>
+                        </div>
+                        <p>October. 01, 1997</p>
+                      </div><!-- / feature -->
+
+                      <div class="col-md-4 feature-left space-bottom">
+                        <div class="feature block">
+                            <div class="feature-icon">
+                                <i class="lnr lnr-map-marker"></i>
+                            </div>
+                            <h5>Address</h5>
+                        </div>
+                        <p>10, Pattali Street, Adivaram, Palani-624601</p>
+                      </div><!-- / feature -->
+
+                </div><!-- / row -->
+                <!-- / features -->
+
+                <!-- awards -->
+                <div class="page-header space-left">
+                    <h3>Interests<span class="text-primary"></span></h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="award">
+                            <h5 class="text-primary">Full Stack Development</h5>
+                            
+                        </div>
+                    </div><!-- / award -->
+
+                    <div class="col-md-4">
+                        <div class="award">
+                            <h5 class="text-primary">Web Developement</h5>
+                            
+                        </div>
+                    </div><!-- / award -->
+
+                    <div class="col-md-4">
+                        <div class="award">
+                            <h5 class="text-primary">Mobile App Development</h5>
+                            
+                        </div>
+                    </div><!-- / award -->
+                </div><!-- / row -->
+                <!-- / awards -->
+
+                <!-- facts -->
+                
+                <!-- / facts -->
+
+                <!-- skills -->
+                <div id="skills">
+                    <div class="page-header space-left">
+                        <h3>Skills<span class="text-primary"></span></h3>
+                    </div>
+                    <div class="row">
+                        <!-- progress-bars left -->
+                        <div class="col-sm-6">
+                            <h6 class="progress-title">Compiler Language</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">HTML5/CSS3</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">Javascript/JQuery</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                </div>
+                            </div><!-- / progress -->
+                            <h6 class="progress-title">MySQL</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                </div>
+                            </div><!-- / progress -->
+                        </div>
+                        <!-- / progress-bars left -->
+
+                        <!-- progress-bars right -->
+                        <div class="col-sm-6">
+                            <h6 class="progress-title">Java</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                </div>
+                            </div><!-- / progress -->
+
+                  
+
+                            <h6 class="progress-title">Oracle SQL</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                </div>
+                            </div>
+							
+							
+							
+                            <h6 class="progress-title">Firebase</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                </div>
+                            </div><!-- / progress -->
+                        </div>
+                        <!-- / progress-bars right -->
+                    </div><!-- / row -->
+                </div>
+                <!-- / skills -->
+            </div><!-- / container -->
+        </section>
+        <!-- / about -->
+
+        <!-- education -->
+        <section id="education">
+            <div class="container">
+                <div class="page-header">
+                    <h3>Education<span class="text-primary"></span></h3>
+                </div>
+                <div class="timeline  border-color">
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">2013</p>
+                                <h4 class="timeline-com">Akshaya Academy Matriculation Higher Secondary School</h4>
+                                <h6 class="timeline-role">10th Grade</h6>
+                                <p class="timeline-location">Palani</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p><br><br><br>
+                                <h3>Percentage : 81%</h3>
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">2016</p>
+                                <h4 class="timeline-com">APA College</h4>
+                                <h6 class="timeline-role">Diplopma in Information Technology</h6>
+                                <p class="timeline-location">Palani</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p><br><br><br>
+                                    <h3>Percentage : 94.83%</h3>
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">2015-2019</p>
+                                <h4 class="timeline-com">PSNA College of Engineering and Technology</h4>
+                                <h6 class="timeline-role">Bachelor of Engineering, Computer Science and Engineering</h6>
+                                <p class="timeline-location">Dindigul</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p><br><br><br>
+                                    <h3>CGPA : 7.0</h3>
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                </div><!-- / timeline -->
+            </div><!-- / container -->
+        </section>
+        <!-- / education -->
+
+        
+
+
+        <!-- journal -->
+        <section id="journal">
+            <div class="container">
+                <div class="page-header space-left">
+                    <h3>Projects<span class="text-primary"></span></h3>
+                </div>
+                <div id="posts-carousel" class="owl-carousel">
+                    <div class="blog block carousel-post">
+                        
+                        <h5>Cyclometer(IoT Based Project)</h5>
+                        <p>An Iot Based application to track distance, pace and calories burnt.
+                            <br><b>Technologies and Languages used: Arduino, MIT </b>
+                            </p>
+                        
+                    </div><!-- / carousel-post -->
+
+                    <div class="blog block carousel-post">
+                        <h5>On-Duty Application Management for College</h5>
+                        <p> Faculty Guide: Prof. Thomas Paul Roy , Asst. Professor, Department of CSE, PSNA<br>
+                            Light-weight application designed to apply for on-duty. The OD-Applications are then reviewed by concerned faculties online through the reviewing portal. The system has built-in e-mail notification option for every transaction.
+                            <br><b>Technologies and Language used: React-Native, Firebase, C9-Environment, Heroku Cloud</b>
+                        </p>
+                    
+                    </div><!-- / carousel-post -->
+
+                    
+                </div><!-- / posts-carousel -->
+            </div><!-- / container -->
+        </section>
+        <!-- / journal -->
+
+        <section id="Achievements">
+            <div class="container">
+                <div class="page-header space-left">
+                    <h3>Achievements<span class="text-primary"></span></h3>
+                </div>
+                    <ul type="bullet">
+                        <li><b>Won third Prize in department-level App development Competition</li>
+                        <br>
+                        <li>Completed a course on Introduction to Modern Application Development offered by NPTEL during Feb-Mar 2017 with an overall score of <b>70%.</b></li>
+                    </ul>
+            </div><!-- / container -->
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="page-header space-left">
+                    <h3>Contact<span class="text-primary"></span></h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 space-bottom">
+                       
+
+                        
+
+                        <div class="row">
+                            <div class="col-sm-6 feature-left space-top">
+                                <div class="feature block">
+                                    <div class="feature-icon">
+                                        <i class="lnr lnr-phone"></i>
+                                    </div>
+                                    <h5>Phone</h5>
+                                    <a href="tel:+918870278869">+91-8870278869</a>
+                                </div><!-- / feature-block -->
+                            </div><!-- / col-md-6 feature-left -->
+
+                            <div class="col-sm-6 feature-left space-top">
+                                <div class="feature block">
+                                    <div class="feature-icon">
+                                        <i class="lnr lnr-envelope"></i>
+                                    </div>
+                                    <h5>Email</h5>
+                                    <a href="mailto:balakarthikeyan.d@gmail.com" class="contact-info-text">balakarthikeyan.d@gmail.com</a>
+                                </div><!-- / feature-block -->
+                            </div><!-- / col-md-6 feature-left -->
+                        </div><!-- / row -->
+
+                        <div class="row">
+                            <div class="col-sm-6 feature-left space-top">
+                                <div class="feature block">
+                                    <div class="feature-icon">
+                                        <i class="lnr lnr-home"></i>
+                                    </div>
+                                    <h5>Home Address</h5>
+                                    <p>10, Pattali Street, Adivaram, Palani-624601</p>
+                                </div><!-- / feature-block -->
+                            </div><!-- / col-md-6 feature-left -->
+
+                            
+                        </div><!-- / row -->
+                
+                    </div><!-- / col-md-6 -->
+
+                    <div class="col-md-6">
+                        <!-- contact form-->
+                        <!-- / contact form -->
+                    </div><!-- / col-md-6 -->
+                </div><!-- / row -->
+            </div><!-- / container -->
+        </section>
+        <!-- / contact -->
+
+        <footer>
+            <div class="container">
+                
+                    <span class="social pull-right">
+                       
+                    </span>
+                </p>
+            </div><!-- / container -->
+        </footer><!-- / light-footer -->
+
+        <!-- scroll to top -->
+        <a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+        <!-- / scroll to top -->
+
+    </div><!-- / container-fluid -->
+</div><!-- / page-content-wrapper -->
+
+</div><!-- / wrapper -->
+
+<!-- javascript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- menu toggle script -->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+<!-- / menu toggle script -->
+
+<!-- nav scroll -->
+<script src="js/scrolling-nav.js"></script>
+<script>
+$(".sidebar-nav a").on("click", function(){
+   $(".sidebar-nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+</script>
+<!-- / nav scroll -->
+
+<!-- contact form -->
+<script src="js/validator.min.js" type="text/javascript"></script>
+<script src="js/form-scripts.js" type="text/javascript"></script>
+<!-- / contact form -->
+
+<!-- facts counter -->
+<script src="js/jquery.countTo.js"></script>
+ <script type="text/javascript">
+      $('.timer').countTo({
+        refreshInterval: 60,
+        formatter: function (value, options) {
+          return value.toFixed(options.decimals);
+        },
+      });
+</script>
+<!-- / facts counter -->
+
+<!-- portfolio script -->
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- / portfolio script -->
+
+<!-- posts carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function() {
+      $("#posts-carousel").owlCarousel({
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      });
+
+    });
+</script>
+<!-- / posts carousel -->
+
+<!-- hide nav -->
+<script src="js/hide-nav.js"></script>
+<!-- / hide nav -->
+
+<!-- / javascript -->
 </body>
 
 </html>
