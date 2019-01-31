@@ -1363,7 +1363,7 @@ input:focus {
 }
 
 .main-demo #sidebar-wrapper {
-  background: url("../images/sidebar-nav-bg.jpg");
+  background: #212121;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1374,7 +1374,7 @@ input:focus {
 }
 
 .main-demo header {
-  background: url("../images/header-bg.jpg");
+  background: #484848;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
